@@ -1,8 +1,9 @@
 ---
-title: JavaCore（Java核心） 
+title: JavaCore（1） 
 date: 2015-04-13 19:06:43
+updated: 2015-04-14 20:29:00
 categories: Java
-tags: [javacore]
+tags: [java, ]
 copyright: true
 ---
 ## Java核心 
@@ -18,6 +19,7 @@ copyright: true
 #### Java注解： 
  
 #### Java反射： 
+<!-- more -->
 
 
 

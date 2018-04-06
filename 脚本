@@ -1,0 +1,7 @@
+
+cd /home/test/
+unset GIT_DIR    
+git config --list
+git pull origin master
+
+git clone ssh://git@106.14.148.54/home/git/hexo.git
