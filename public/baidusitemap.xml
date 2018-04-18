@@ -307,6 +307,26 @@
 
     
   <url>
+    <loc>http://edgeowner.com/2016/04/23/jvm/</loc>
+    <lastmod>2016-04-23T14:29:00.000Z</lastmod>
+    <data>
+        <display>
+        <title>JVM内存结构(1)</title>
+        <pubTime>2016-04-23T13:20:43.000Z</pubTime>
+        
+        <tag>JVM</tag>
+         
+         
+           
+             
+              <breadCrumb title="JVM" url="http://edgeowner.com/categories/JVM/"/>
+          
+        </display>
+    </data>
+    </url>
+
+    
+  <url>
     <loc>http://edgeowner.com/2016/04/23/thread-sample-introduce/</loc>
     <lastmod>2016-04-23T13:19:21.000Z</lastmod>
     <data>
@@ -320,26 +340,6 @@
            
              
               <breadCrumb title="Java多线程" url="http://edgeowner.com/categories/Java%E5%A4%9A%E7%BA%BF%E7%A8%8B/"/>
-          
-        </display>
-    </data>
-    </url>
-
-    
-  <url>
-    <loc>http://edgeowner.com/2016/04/23/jvm/</loc>
-    <lastmod>2016-04-23T12:29:00.000Z</lastmod>
-    <data>
-        <display>
-        <title>JVM内存结构(1)</title>
-        <pubTime>2016-04-23T10:35:25.000Z</pubTime>
-        
-        <tag>JVM</tag>
-         
-         
-           
-             
-              <breadCrumb title="JVM" url="http://edgeowner.com/categories/JVM/"/>
           
         </display>
     </data>

@@ -2,8 +2,8 @@
 title: JVM内存结构(1)
 tags: [JVM]
 copyright: true
-date: 2016-04-23 18:35:25
-updated: 2016-04-23 20:29:00
+date: 2016-04-23 21:20:43
+updated: 2016-04-23 22:29:00
 categories: JVM
 ---
 
