@@ -1,17 +1,20 @@
 ---
 title: JVM内存结构(1)
-tags: [Java, JVM]
+tags: [JVM]
 copyright: true
-date: 2016-04-19 18:35:25
-updated: 2016-04-19 20:29:00
+date: 2016-04-23 18:35:25
+updated: 2016-04-23 20:29:00
 categories: JVM
 ---
 
 ### JVM内存结构（运行时数据区）
 JVM内存结构指得是：运行时数据区（Runtime Data Area），由 ***方法区(Method Area) ***、***堆(Heap) ***、***Java栈(Java Stack) ***、***本地方法栈(Native Method Stack)***、***程序计数器(Program Counter Register)***。
 ![](http://p5vswdxl9.bkt.clouddn.com/JVMRuntime)
+
 <!-- more -->
+
 --------------------
+
 #### 一、方法区(Method Area)  
 1. **作用**： 用于存储已被虚拟机加载的类信息、常量、静态变量、即时编译后的代码等数据。此区域内存回收目标主要针对常量池回收和对类型的卸载回收。 
 2. **特点**：线程共享 。
