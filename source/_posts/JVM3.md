@@ -15,7 +15,7 @@ updated: 2016-04-27 12:29:00
 * 简单讲，新生代的eden、新生代的survival、老生代里的对象存活时间依次变长。
 
 | **参数名称** | **含义**|
-|:--------|---------|
+| :--------|---------|
 | -Xmx| 初始堆大小 |
 | -Xms| 最大堆大小 |
 | -Xss| 每个线程的堆栈大小 |
@@ -51,9 +51,14 @@ updated: 2016-04-27 12:29:00
 
 * Runtime Data Area则是存放数据的，分为五部分：Stack，Heap，Method Area，PC Register，Native Method Stack。几乎所有的关于java内存方面的问题，都是集中在这块。下图是javapapers.com上关于Run-time Data Areas的描述：![](http://p5vswdxl9.bkt.clouddn.com/JVM_2.jpg)
 
-
 --------------
 
+#### 相关技术参考
+1. [JVM原理分析](https://www.jianshu.com/p/be6f529160b6)
+2. [JVM知识点总览](https://mp.weixin.qq.com/s/ebg0bT_xBahGV7OAKorBAw)
+3. [JVM系列之GC](https://juejin.im/post/5a1cc3596fb9a04506715aad)
+4. [重读 JVM](https://juejin.im/post/59ad4cd56fb9a02477075780#heading-5)
+5. [JVM 的内存模型](https://mijack.github.io/2018/03/18/Garbage-Collection/)
 
 
 

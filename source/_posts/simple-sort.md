@@ -147,3 +147,7 @@ public static void insertSort(int[] arr) {
 ```
 ** 插入排序和冒泡排序一样，也有一种优化算法，叫做拆半插入。时间复杂度为O(n²)，是稳定的排序。 **
 
+-------
+
+Demo代码地址：[Github](git@github.com:edgeowner/JavaCoreDemo.git)
+

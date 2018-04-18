@@ -18,6 +18,7 @@ mathjax: true
 <!-- more -->
 
 -------
+
 #### 算法思路
 Counting sort is a sorting technique based on keys between a specific range, it works by counting the number of objects having distinct key values.Then doing some arithmetic to calculate the position of each object in the output sequence.
 
@@ -86,4 +87,5 @@ Counting sort is a sorting technique based on keys between a specific range, it 
 ```
 
 参考地址：[计数排序](https://github.com/hustcc/JS-Sorting-Algorithm/blob/master/8.countingSort.md)
+Demo代码地址：[Github](git@github.com:edgeowner/JavaCoreDemo.git)
 
