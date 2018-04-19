@@ -41,7 +41,7 @@ future: true
 highlight:
   enable: true
   line_number: true
-  auto_detect: false
+  auto_detect: true
   tab_replace:
   
 # Home page setting
@@ -85,7 +85,7 @@ deploy:
   repository:
       github: git@github.com:edgeowner/edgeowner.github.io.git
       # 增加这一行
-      # coding: git@git.coding.net:zhangsunny/blogs.git
+     # coding: git@git.coding.net:zhangsunny/blogs.git
   branch: master
 
 

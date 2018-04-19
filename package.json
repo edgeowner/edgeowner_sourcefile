@@ -28,6 +28,7 @@
     "hexo-generator-sitemap": "^1.2.0",
     "hexo-generator-tag": "^0.2.0",
     "hexo-inject": "^1.0.0",
+    "hexo-reference": "^1.0.3",
     "hexo-related-popular-posts": "^3.0.1",
     "hexo-renderer-ejs": "^0.3.1",
     "hexo-renderer-kramed": "^0.1.4",

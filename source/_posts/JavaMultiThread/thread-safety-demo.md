@@ -1,8 +1,8 @@
 ---
-title: 日常开发工具集（1）
+title: 浅析线程安全
 date: 2017-03-02 22:13:25
 updated: 2017-03-02 22:33:14
-categories: Java Multi-thread Programming书籍
+categories: Java多线程
 tags: [Thread]
 copyright: true
 mathjax: true
