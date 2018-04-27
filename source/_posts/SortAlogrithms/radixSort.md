@@ -104,5 +104,5 @@ It is a sorting algorithm that is used to sort numbers. We sort the numbers from
 -------
 
 参考地址：[基数排序](https://mp.weixin.qq.com/s?__biz=MzI4Njg5MDA5NA==&mid=2247484071&idx=2&sn=5195363e7a5c5e3e7cac2a733c2695e9&chksm=ebd743a6dca0cab0b79aec38ff835116af9079114c9266ef673c6c1009b32b2abf262bf35e0c&scene=21#wechat_redirect)
-Demo代码地址：[Github](git@github.com:edgeowner/JavaCoreDemo.git)
+Demo代码地址：[Github](https://github.com/edgeowner/JS-Sorting-Algorithm)
 

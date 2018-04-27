@@ -97,7 +97,7 @@ commit --提交事务
 7. [数据库的锁机制](http://www.hollischuang.com/archives/909)
 
 #### 本文代码Demo：
-Github地址：[参见Price相关代码](git@github.com:edgeowner/saber.git)
+Github地址：[参见Price相关代码](https://github.com/edgeowner/JavaCoreDemo)
 
 
 

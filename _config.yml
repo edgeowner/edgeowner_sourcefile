@@ -98,7 +98,7 @@ deploy:
   repository:
       github: git@github.com:edgeowner/edgeowner.github.io.git
       # 增加这一行
-     # coding: git@git.coding.net:zhangsunny/blogs.git
+      coding: git@git.coding.net:zhangsunny/blogs.git
   branch: master
 
 

@@ -40,7 +40,7 @@ mathjax: true
 &emsp;&emsp;json.cn([资源地址](https://www.json.cn/))是比较不错的，不仅支持Json格式的验证及格式化，还可以将Json格式压缩成普通文本等，以及查询Json组件和Json解析相关代码好用功能。
 ![Json.cn](http://p5vswdxl9.bkt.clouddn.com/json.cn.jpg)
 
-#### json生成java类
+#### Json生成java类
 &emsp;&emsp;bejson([资源地址](http://www.bejson.com/json2javapojo/)Json是目前JavaWeb中数据传输的主要格式，很多时候会有把Json转成Java对象的需求。有时候合作方会提供一个Json的样例，需要我们自己定义Java类，这时候这个工具就派上用场了。
 ![bejson](http://p5vswdxl9.bkt.clouddn.com/bejson.jpg)
 

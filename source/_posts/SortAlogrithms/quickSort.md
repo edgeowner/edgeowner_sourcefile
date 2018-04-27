@@ -98,7 +98,10 @@ categories: Algorithms
     }
 ```
 
-参考地址：[](https://mp.weixin.qq.com/s?__biz=MzI4Njg5MDA5NA==&mid=2247484039&idx=1&sn=15aa43a3865daca394abae379c7a5383&chksm=ebd74386dca0ca90e3c3067515de1c3b3da7e0ea44a26d8dd96e8d7424f4e10227d9edac9bcf#rd)
+-------
+### 参考地址
+1. [快速排序就这么简单](https://mp.weixin.qq.com/s?__biz=MzI4Njg5MDA5NA==&mid=2247484039&idx=1&sn=15aa43a3865daca394abae379c7a5383&chksm=ebd74386dca0ca90e3c3067515de1c3b3da7e0ea44a26d8dd96e8d7424f4e10227d9edac9bcf#rd)
+2. [Github代码Demo](https://github.com/edgeowner/JS-Sorting-Algorithm)
 
 
 

@@ -108,7 +108,7 @@
   
     
     
-    <link href="//fonts.cat.net/css?family=Roboto Slab:300,300italic,400,400italic,700,700italic|Roboto Slab:300,300italic,400,400italic,700,700italic|Roboto Slab:300,300italic,400,400italic,700,700italic|Lobster Two:300,300italic,400,400italic,700,700italic|PT Mono:300,300italic,400,400italic,700,700italic&subset=latin,latin-ext" rel="stylesheet" type="text/css">
+    <link href="//fonts.googleapis.com/css?family=Roboto Slab:300,300italic,400,400italic,700,700italic|Roboto Slab:300,300italic,400,400italic,700,700italic|Roboto Slab:300,300italic,400,400italic,700,700italic|Lobster Two:300,300italic,400,400italic,700,700italic|PT Mono:300,300italic,400,400italic,700,700italic&subset=latin,latin-ext" rel="stylesheet" type="text/css">
   
 
 
@@ -234,7 +234,7 @@
 
     <header id="header" class="header" itemscope itemtype="http://schema.org/WPHeader">
       <div class="header-inner"><div class="site-brand-wrapper">
-  <div class="site-meta ">
+  <div class="site-meta custom-logo">
     
 
     <div class="custom-logo-site-title">
@@ -529,7 +529,6 @@
 </ol>
 <hr>
 <h3 id="进程和线程"><a href="#进程和线程" class="headerlink" title="进程和线程"></a>进程和线程</h3><p>&emsp;&emsp;进程是操作系统的管理单位，线程则是进程的管理单位。一个线程至少包含一个执行线程。不管是在多线程还是单线程，每个线程都一个程序计数器（记录要执行的下一条指令），一组寄存器（保存当前线程的工作变量），堆栈（记录执行理事，其中每一帧保存了一个已经调用但为返回的过程）。虽然线程<strong><em>寄生 </em></strong>在进程中，但与它的进程是不同的概念，并且可以分别处理：<font color="#FF4500">进程是系统分配资源的基本单位，线程是调度CPU的基本单位</font>。</p>
-<div class="table-container">
 <table>
 <thead>
 <tr>
@@ -571,7 +570,6 @@
 </tr>
 </tbody>
 </table>
-</div>
 <hr>
 <h3 id="CPU调度"><a href="#CPU调度" class="headerlink" title="CPU调度"></a>CPU调度</h3><p>&emsp;&emsp;进程执行由CPU进行周期和I/O等待周期组成。进程在这两个状态之间切换（CPU burst ～ IO burst）<br>进程执行从CPU区间（CPU burst）开始，在这之后是IO区间（IO burst）。接着另外一个CPU区间，然后是另外一个IO区间，如此进行下去，最后CPU区间通过系统请求中止执行。<br>经过大量CPU区间长度的测试。发现具有大量短CPU区间和少量长CPU区间。IO约束程序通常具有很多短CPU区间。CPU约束成层序可能有少量的长CPU区间。这种分布有助于选择合适的CPU调度算法。</p>
 
@@ -779,9 +777,7 @@
 
   
     <div class="comments" id="comments">
-      <div id="lv-container" data-id="city" data-uid="MTAyMC8zNDk4MS8xMTUxOA=="></div>
     </div>
-
   
 
 
@@ -836,7 +832,7 @@
               
                 <a href="/archives">
               
-                  <span class="site-state-item-count">44</span>
+                  <span class="site-state-item-count">47</span>
                   <span class="site-state-item-name">日志</span>
                 </a>
               </div>
@@ -847,7 +843,7 @@
               
               <div class="site-state-item site-state-categories">
                 <a href="/categories/index.html">
-                  <span class="site-state-item-count">10</span>
+                  <span class="site-state-item-count">11</span>
                   <span class="site-state-item-name">分类</span>
                 </a>
               </div>
@@ -858,7 +854,7 @@
               
               <div class="site-state-item site-state-tags">
                 <a href="/tags/index.html">
-                  <span class="site-state-item-count">16</span>
+                  <span class="site-state-item-count">17</span>
                   <span class="site-state-item-name">标签</span>
                 </a>
               </div>
@@ -885,15 +881,15 @@
                 </span>
               
                 <span class="links-of-author-item">
-                  <a href="572092384@qq.com" target="_blank" title="E-Mail">
-                    
-                      <i class="fa fa-fw fa-envelope"></i>E-Mail</a>
-                </span>
-              
-                <span class="links-of-author-item">
                   <a href="https://weibo.com/u/2003887723/home" target="_blank" title="Weibo">
                     
                       <i class="fa fa-fw fa-weibo"></i>Weibo</a>
+                </span>
+              
+                <span class="links-of-author-item">
+                  <a href="https://plus.google.com/u/0/113974455569024478598" target="_blank" title="Google">
+                    
+                      <i class="fa fa-fw fa-google"></i>Google</a>
                 </span>
               
             
@@ -937,6 +933,14 @@
                     <a href="https://yemengying.com/" title="yemengying" target="_blank">yemengying</a>
                   </li>
                 
+                  <li class="links-of-blogroll-item">
+                    <a href="http://int64.me/index.html" title="cwen" target="_blank">cwen</a>
+                  </li>
+                
+                  <li class="links-of-blogroll-item">
+                    <a href="https://taozj.net/201612/study-conclusion-stage.html" title="taozj" target="_blank">taozj</a>
+                  </li>
+                
               </ul>
             </div>
           
@@ -978,7 +982,7 @@
       <div class="footer-inner">
         <script async src="https://dn-lbstatics.qbox.me/busuanzi/2.3/busuanzi.pure.mini.js">
 </script>
-<div class="copyright">&copy; 2016 &mdash; <span itemprop="copyrightYear">2018</span>
+<div class="copyright">&copy; 2015 &mdash; <span itemprop="copyrightYear">2018</span>
   <span class="with-love">
     <i class="fa fa-star"></i>
   </span>
@@ -990,7 +994,7 @@
   <span class="post-meta-item-icon"> <i class="fa fa-area-chart"></i></span> 
   <div class="theme-info">
     <div class="powered-by"></div>
-    <span class="post-count">博客全站共28.7k字</span>
+    <span class="post-count">博客全站共31.6k字</span>
   </div>
     <div class="powered-by">
       <span class="post-meta-divider">|</span> 
@@ -1018,7 +1022,7 @@
     
       <span class="post-meta-item-text">Site words total count&#58;</span>
     
-    <span title="Site words total count">28.7k</span>
+    <span title="Site words total count">31.6k</span>
    
   -->
 </div>
@@ -1174,17 +1178,6 @@
 
 
 
-  
-    <script type="text/javascript">
-      (function(d, s) {
-        var j, e = d.getElementsByTagName(s)[0];
-        if (typeof LivereTower === 'function') { return; }
-        j = d.createElement(s);
-        j.src = 'https://cdn-city.livere.com/js/embed.dist.js';
-        j.async = true;
-        e.parentNode.insertBefore(j, e);
-      })(document, 'script');
-    </script>
   
 
 
@@ -1672,7 +1665,7 @@
         }
       });
     </script>
-    <script type="text/javascript" src="//cdn.bootcss.com/mathjax/2.7.4/MathJax.js"></script>
+    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.2/MathJax.js?config=TeX-AMS-MML_HTMLorMML"></script>
   
 
 

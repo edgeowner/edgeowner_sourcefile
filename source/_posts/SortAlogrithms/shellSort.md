@@ -130,6 +130,6 @@ In this sorting algorithm we compare elements that are distant apart rather than
 -------
 
 参考地址：[希尔排序](https://mp.weixin.qq.com/s?__biz=MzI4Njg5MDA5NA==&mid=2247484071&idx=1&sn=c372ab46daf1ccdf27398951172c4443&chksm=ebd743a6dca0cab03a55772a6f64be89f9dee504a9e00f96b36e685698722ade9855d8bd3c21#rd)
-Demo代码地址：[Github](git@github.com:edgeowner/JavaCoreDemo.git)
+Demo代码地址：[Github](https://github.com/edgeowner/JS-Sorting-Algorithm)
 
 

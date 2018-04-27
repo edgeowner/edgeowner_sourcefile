@@ -108,7 +108,7 @@
   
     
     
-    <link href="//fonts.cat.net/css?family=Roboto Slab:300,300italic,400,400italic,700,700italic|Roboto Slab:300,300italic,400,400italic,700,700italic|Roboto Slab:300,300italic,400,400italic,700,700italic|Lobster Two:300,300italic,400,400italic,700,700italic|PT Mono:300,300italic,400,400italic,700,700italic&subset=latin,latin-ext" rel="stylesheet" type="text/css">
+    <link href="//fonts.googleapis.com/css?family=Roboto Slab:300,300italic,400,400italic,700,700italic|Roboto Slab:300,300italic,400,400italic,700,700italic|Roboto Slab:300,300italic,400,400italic,700,700italic|Lobster Two:300,300italic,400,400italic,700,700italic|PT Mono:300,300italic,400,400italic,700,700italic&subset=latin,latin-ext" rel="stylesheet" type="text/css">
   
 
 
@@ -236,7 +236,7 @@
 
     <header id="header" class="header" itemscope itemtype="http://schema.org/WPHeader">
       <div class="header-inner"><div class="site-brand-wrapper">
-  <div class="site-meta ">
+  <div class="site-meta custom-logo">
     
 
     <div class="custom-logo-site-title">
@@ -515,7 +515,9 @@
 
       
         <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/hint.css/2.4.1/hint.min.css"><h3 id="堆排序"><a href="#堆排序" class="headerlink" title="堆排序"></a>堆排序</h3><p>堆排序是利用堆这种数据结构而设计的一种排序算法，堆排序是一种选择排序，它的最坏，最好，平均时间复杂度均为O(nlogn)，它也是不稳定排序。<br>堆是具有以下性质的完全二叉树：每个结点的值都大于或等于其左右孩子结点的值，称为大顶堆；或者每个结点的值都小于或等于其左右孩子结点的值，称为小顶堆。<br>大堆小堆图例：<br><img src="http://p5vswdxl9.bkt.clouddn.com/%E5%A4%A7%E5%A0%86%E5%B0%8F%E5%A0%86.png" alt=""><br>简单来说：堆排序是将数据看成是完全二叉树、根据完全二叉树的特性来进行排序的一种算法。<br>最大堆要求节点的元素都要不小于其孩子，最小堆要求节点元素都不大于其左右孩子。那么处于最大堆的根节点的元素一定是这个堆中的最大值。<br>完全二叉树有个特性：左边子节点位置 = 当前父节点的两倍 + 1，右边子节点位置 = 当前父节点的两倍 + 2<br><a href="https://mp.weixin.qq.com/s?__biz=MzI4Njg5MDA5NA==&amp;mid=2247484064&amp;idx=2&amp;sn=d308d573df43e8e3b0633d0dc1147c3b&amp;chksm=ebd743a1dca0cab774e7df348401039dda0765923efde0b9cf8e3589c4ceab25c5ec0cea5f7d#rd" target="_blank" rel="noopener">点击参考文章</a></p>
-<h2 id=""><a href="#" class="headerlink" title=""></a><a id="more"></a></h2><h4 id="算法思路"><a href="#算法思路" class="headerlink" title="算法思路"></a>算法思路</h4><p>这里我们讨论最大堆：当前每个父节点都大于子节点。<br>In this Algorithm we first build the heap using the given elements, We create a Max Heap to sort the elements in ascending order , Once the heap is<br>created we swap the root node with the last node an delete the last node from the heap。</p>
+<a id="more"></a>
+<hr>
+<h4 id="算法思路"><a href="#算法思路" class="headerlink" title="算法思路"></a>算法思路</h4><p>这里我们讨论最大堆：当前每个父节点都大于子节点。<br>In this Algorithm we first build the heap using the given elements, We create a Max Heap to sort the elements in ascending order , Once the heap is<br>created we swap the root node with the last node an delete the last node from the heap。</p>
 <ol>
 <li>Build a heap we need transform it into to a max  heap ;</li>
 <li>Create a Max heap (this Max heap parent node is always greater than or equal to child nodes);</li>
@@ -531,7 +533,7 @@
 </ol>
 <hr>
 <h4 id="代码实现方式"><a href="#代码实现方式" class="headerlink" title="代码实现方式"></a>代码实现方式</h4><p>(关键节点添加输出标注，可自行追踪执行过程)<br><figure class="highlight java"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br><span class="line">21</span><br><span class="line">22</span><br><span class="line">23</span><br><span class="line">24</span><br><span class="line">25</span><br><span class="line">26</span><br><span class="line">27</span><br><span class="line">28</span><br><span class="line">29</span><br><span class="line">30</span><br><span class="line">31</span><br><span class="line">32</span><br><span class="line">33</span><br><span class="line">34</span><br><span class="line">35</span><br><span class="line">36</span><br><span class="line">37</span><br><span class="line">38</span><br><span class="line">39</span><br><span class="line">40</span><br><span class="line">41</span><br><span class="line">42</span><br><span class="line">43</span><br><span class="line">44</span><br><span class="line">45</span><br><span class="line">46</span><br><span class="line">47</span><br><span class="line">48</span><br><span class="line">49</span><br><span class="line">50</span><br><span class="line">51</span><br><span class="line">52</span><br><span class="line">53</span><br><span class="line">54</span><br><span class="line">55</span><br><span class="line">56</span><br><span class="line">57</span><br><span class="line">58</span><br><span class="line">59</span><br><span class="line">60</span><br><span class="line">61</span><br><span class="line">62</span><br><span class="line">63</span><br><span class="line">64</span><br><span class="line">65</span><br><span class="line">66</span><br><span class="line">67</span><br><span class="line">68</span><br><span class="line">69</span><br><span class="line">70</span><br><span class="line">71</span><br><span class="line">72</span><br><span class="line">73</span><br><span class="line">74</span><br><span class="line">75</span><br><span class="line">76</span><br><span class="line">77</span><br><span class="line">78</span><br><span class="line">79</span><br><span class="line">80</span><br><span class="line">81</span><br></pre></td><td class="code"><pre><span class="line"><span class="comment">/**</span></span><br><span class="line"><span class="comment">    * 堆排序</span></span><br><span class="line"><span class="comment">    *</span></span><br><span class="line"><span class="comment">    * <span class="doctag">@param</span> arrs</span></span><br><span class="line"><span class="comment">    */</span></span><br><span class="line">   <span class="function"><span class="keyword">public</span> <span class="keyword">static</span> <span class="keyword">void</span> <span class="title">heapSort</span><span class="params">(<span class="keyword">int</span>[] arrs)</span> </span>&#123;</span><br><span class="line">       <span class="keyword">if</span> (arrs == <span class="keyword">null</span> || arrs.length == <span class="number">0</span>) &#123;</span><br><span class="line">           <span class="keyword">return</span>;</span><br><span class="line">       &#125;</span><br><span class="line">       <span class="keyword">int</span> len = arrs.length;</span><br><span class="line">       <span class="comment">//循环建立最大堆</span></span><br><span class="line">       <span class="keyword">for</span> (<span class="keyword">int</span> i = <span class="number">0</span>; i &lt; len; i++) &#123;</span><br><span class="line">           System.out.println(MessageFormat.format(<span class="string">"1. heapSort: i,&#123;0&#125;  j,&#123;1&#125;"</span>, i, len - <span class="number">1</span>));</span><br><span class="line">           System.out.println(<span class="string">"--------------1. buildMaxHeap start--------------"</span>);</span><br><span class="line">           buildMaxHeap(arrs, len - i);</span><br><span class="line">           <span class="comment">//交换堆顶和最后一个元素</span></span><br><span class="line">           <span class="keyword">int</span> temp = arrs[<span class="number">0</span>];</span><br><span class="line">           arrs[<span class="number">0</span>] = arrs[len - <span class="number">1</span> - i];</span><br><span class="line">           arrs[len - <span class="number">1</span> - i] = temp;</span><br><span class="line">           System.out.println(<span class="string">"--------------1. buildMaxHeap over--------------"</span>);</span><br><span class="line">       &#125;</span><br><span class="line">       </span><br><span class="line">   &#125;</span><br><span class="line"></span><br><span class="line">   <span class="comment">/**</span></span><br><span class="line"><span class="comment">    * 完成最大堆建立</span></span><br><span class="line"><span class="comment">    *</span></span><br><span class="line"><span class="comment">    * <span class="doctag">@param</span> arrs</span></span><br><span class="line"><span class="comment">    * <span class="doctag">@param</span> len</span></span><br><span class="line"><span class="comment">    */</span></span><br><span class="line">   <span class="function"><span class="keyword">private</span> <span class="keyword">static</span> <span class="keyword">void</span> <span class="title">buildMaxHeap</span><span class="params">(<span class="keyword">int</span>[] arrs, <span class="keyword">int</span> len)</span> </span>&#123;</span><br><span class="line">       System.out.println(<span class="string">"--------------2. buildMaxHeap method start--------------"</span>);</span><br><span class="line">       System.out.println(MessageFormat.format(<span class="string">"--------------2. params:&#123;0&#125;--------------"</span>,len));</span><br><span class="line">       <span class="keyword">for</span> (<span class="keyword">int</span> j = (<span class="keyword">int</span>) Math.floor(len / <span class="number">2</span>); j &gt;= <span class="number">0</span>; j--) &#123;</span><br><span class="line">           heapify(arrs, j, len);</span><br><span class="line">       &#125;</span><br><span class="line">   &#125;</span><br><span class="line"></span><br><span class="line">   <span class="comment">/**</span></span><br><span class="line"><span class="comment">    * 建立堆 (大顶堆方式)</span></span><br><span class="line"><span class="comment">    *</span></span><br><span class="line"><span class="comment">    * <span class="doctag">@param</span> arrs           完全二叉树</span></span><br><span class="line"><span class="comment">    * <span class="doctag">@param</span> currentRooNode 当前父节点位置</span></span><br><span class="line"><span class="comment">    * <span class="doctag">@param</span> length         节点总数</span></span><br><span class="line"><span class="comment">    */</span></span><br><span class="line">   <span class="function"><span class="keyword">private</span> <span class="keyword">static</span> <span class="keyword">void</span> <span class="title">heapify</span><span class="params">(<span class="keyword">int</span>[] arrs, <span class="keyword">int</span> currentRooNode, <span class="keyword">int</span> length)</span> </span>&#123;</span><br><span class="line">       System.out.println(<span class="string">"--------------3. heapify method start--------------"</span>);</span><br><span class="line">       System.out.println(MessageFormat.format(<span class="string">"--------------3. params:&#123;0&#125;,&#123;1&#125;-------------"</span>, currentRooNode, length));</span><br><span class="line">       <span class="keyword">if</span> (currentRooNode &lt; length) &#123;</span><br><span class="line">           <span class="comment">//左叶子结点 位置</span></span><br><span class="line">           <span class="keyword">int</span> left = <span class="number">2</span> * currentRooNode + <span class="number">1</span>;</span><br><span class="line">           <span class="comment">//右叶子结点 位置</span></span><br><span class="line">           <span class="keyword">int</span> right = <span class="number">2</span> * currentRooNode + <span class="number">2</span>;</span><br><span class="line">           <span class="keyword">int</span> max = currentRooNode;</span><br><span class="line"></span><br><span class="line">           <span class="keyword">if</span> (left &lt; length) &#123;</span><br><span class="line">               <span class="comment">//如果当前根节点的 左叶子节点元素值较大，记录它的位置</span></span><br><span class="line">               <span class="keyword">if</span> (arrs[max] &lt; arrs[left]) &#123;</span><br><span class="line">                   max = left;</span><br><span class="line">               &#125;</span><br><span class="line">           &#125;</span><br><span class="line"></span><br><span class="line">           <span class="keyword">if</span> (right &lt; length) &#123;</span><br><span class="line">               <span class="comment">//如果当前根节点的 右叶子节点元素值较大，记录它的位置</span></span><br><span class="line">               <span class="keyword">if</span> (arrs[max] &lt; arrs[right]) &#123;</span><br><span class="line">                   max = right;</span><br><span class="line">               &#125;</span><br><span class="line">           &#125;</span><br><span class="line"></span><br><span class="line">           <span class="comment">//如果最大的不是根元素位置，那么就交换</span></span><br><span class="line">           <span class="keyword">if</span> (max != currentRooNode) &#123;</span><br><span class="line">               <span class="keyword">int</span> temp = arrs[max];</span><br><span class="line">               arrs[max] = arrs[currentRooNode];</span><br><span class="line">               arrs[currentRooNode] = temp;</span><br><span class="line">               <span class="comment">//继续比较，直到完成一次建堆</span></span><br><span class="line">               heapify(arrs, max, length);</span><br><span class="line">           &#125;</span><br><span class="line"></span><br><span class="line">       &#125;</span><br><span class="line">       System.out.println(<span class="string">"--------------3. heapify method over--------------"</span>);</span><br><span class="line">   &#125;</span><br></pre></td></tr></table></figure></p>
-<p>参考地址：<a href="https://mp.weixin.qq.com/s?__biz=MzI4Njg5MDA5NA==&amp;mid=2247484064&amp;idx=2&amp;sn=d308d573df43e8e3b0633d0dc1147c3b&amp;chksm=ebd743a1dca0cab774e7df348401039dda0765923efde0b9cf8e3589c4ceab25c5ec0cea5f7d#rd" target="_blank" rel="noopener">堆排序</a><br>Demo代码地址：<a href="git@github.com:edgeowner/JavaCoreDemo.git">Github</a></p>
+<p>参考地址：<a href="https://mp.weixin.qq.com/s?__biz=MzI4Njg5MDA5NA==&amp;mid=2247484064&amp;idx=2&amp;sn=d308d573df43e8e3b0633d0dc1147c3b&amp;chksm=ebd743a1dca0cab774e7df348401039dda0765923efde0b9cf8e3589c4ceab25c5ec0cea5f7d#rd" target="_blank" rel="noopener">堆排序</a><br>Demo代码地址：<a href="https://github.com/edgeowner/JavaCoreDemo" target="_blank" rel="noopener">Github</a></p>
 
       
     </div>
@@ -739,9 +741,7 @@
 
   
     <div class="comments" id="comments">
-      <div id="lv-container" data-id="city" data-uid="MTAyMC8zNDk4MS8xMTUxOA=="></div>
     </div>
-
   
 
 
@@ -796,7 +796,7 @@
               
                 <a href="/archives">
               
-                  <span class="site-state-item-count">44</span>
+                  <span class="site-state-item-count">47</span>
                   <span class="site-state-item-name">日志</span>
                 </a>
               </div>
@@ -807,7 +807,7 @@
               
               <div class="site-state-item site-state-categories">
                 <a href="/categories/index.html">
-                  <span class="site-state-item-count">10</span>
+                  <span class="site-state-item-count">11</span>
                   <span class="site-state-item-name">分类</span>
                 </a>
               </div>
@@ -818,7 +818,7 @@
               
               <div class="site-state-item site-state-tags">
                 <a href="/tags/index.html">
-                  <span class="site-state-item-count">16</span>
+                  <span class="site-state-item-count">17</span>
                   <span class="site-state-item-name">标签</span>
                 </a>
               </div>
@@ -845,15 +845,15 @@
                 </span>
               
                 <span class="links-of-author-item">
-                  <a href="572092384@qq.com" target="_blank" title="E-Mail">
-                    
-                      <i class="fa fa-fw fa-envelope"></i>E-Mail</a>
-                </span>
-              
-                <span class="links-of-author-item">
                   <a href="https://weibo.com/u/2003887723/home" target="_blank" title="Weibo">
                     
                       <i class="fa fa-fw fa-weibo"></i>Weibo</a>
+                </span>
+              
+                <span class="links-of-author-item">
+                  <a href="https://plus.google.com/u/0/113974455569024478598" target="_blank" title="Google">
+                    
+                      <i class="fa fa-fw fa-google"></i>Google</a>
                 </span>
               
             
@@ -897,6 +897,14 @@
                     <a href="https://yemengying.com/" title="yemengying" target="_blank">yemengying</a>
                   </li>
                 
+                  <li class="links-of-blogroll-item">
+                    <a href="http://int64.me/index.html" title="cwen" target="_blank">cwen</a>
+                  </li>
+                
+                  <li class="links-of-blogroll-item">
+                    <a href="https://taozj.net/201612/study-conclusion-stage.html" title="taozj" target="_blank">taozj</a>
+                  </li>
+                
               </ul>
             </div>
           
@@ -916,7 +924,7 @@
             
 
             
-              <div class="post-toc-content"><ol class="nav"><li class="nav-item nav-level-3"><a class="nav-link" href="#堆排序"><span class="nav-number">1.</span> <span class="nav-text">堆排序</span></a></li></ol></li><li class="nav-item nav-level-2"><a class="nav-link" href="#"><span class="nav-number"></span> <span class="nav-text"></span></a><ol class="nav-child"><li class="nav-item nav-level-4"><a class="nav-link" href="#算法思路"><span class="nav-number">0.1.</span> <span class="nav-text">算法思路</span></a></li><li class="nav-item nav-level-4"><a class="nav-link" href="#代码实现方式"><span class="nav-number">0.2.</span> <span class="nav-text">代码实现方式</span></a></li></ol></li></ol></div>
+              <div class="post-toc-content"><ol class="nav"><li class="nav-item nav-level-3"><a class="nav-link" href="#堆排序"><span class="nav-number">1.</span> <span class="nav-text">堆排序</span></a><ol class="nav-child"><li class="nav-item nav-level-4"><a class="nav-link" href="#算法思路"><span class="nav-number">1.1.</span> <span class="nav-text">算法思路</span></a></li><li class="nav-item nav-level-4"><a class="nav-link" href="#代码实现方式"><span class="nav-number">1.2.</span> <span class="nav-text">代码实现方式</span></a></li></ol></li></ol></div>
             
 
           </div>
@@ -938,7 +946,7 @@
       <div class="footer-inner">
         <script async src="https://dn-lbstatics.qbox.me/busuanzi/2.3/busuanzi.pure.mini.js">
 </script>
-<div class="copyright">&copy; 2016 &mdash; <span itemprop="copyrightYear">2018</span>
+<div class="copyright">&copy; 2015 &mdash; <span itemprop="copyrightYear">2018</span>
   <span class="with-love">
     <i class="fa fa-star"></i>
   </span>
@@ -950,7 +958,7 @@
   <span class="post-meta-item-icon"> <i class="fa fa-area-chart"></i></span> 
   <div class="theme-info">
     <div class="powered-by"></div>
-    <span class="post-count">博客全站共28.7k字</span>
+    <span class="post-count">博客全站共31.6k字</span>
   </div>
     <div class="powered-by">
       <span class="post-meta-divider">|</span> 
@@ -978,7 +986,7 @@
     
       <span class="post-meta-item-text">Site words total count&#58;</span>
     
-    <span title="Site words total count">28.7k</span>
+    <span title="Site words total count">31.6k</span>
    
   -->
 </div>
@@ -1134,17 +1142,6 @@
 
 
 
-  
-    <script type="text/javascript">
-      (function(d, s) {
-        var j, e = d.getElementsByTagName(s)[0];
-        if (typeof LivereTower === 'function') { return; }
-        j = d.createElement(s);
-        j.src = 'https://cdn-city.livere.com/js/embed.dist.js';
-        j.async = true;
-        e.parentNode.insertBefore(j, e);
-      })(document, 'script');
-    </script>
   
 
 

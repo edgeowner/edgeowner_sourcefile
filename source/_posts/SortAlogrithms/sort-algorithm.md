@@ -50,10 +50,9 @@ categories: Algorithms
 
 ---------------------
 参考：
-* [八大基础排序总结](https://mp.weixin.qq.com/s?__biz=MzI4Njg5MDA5NA==&mid=2247484058&idx=1&sn=432c2dd8e4bda662ce066c09f8e22bda&chksm=ebd7439bdca0ca8ded40d0f431db411928936db9b4b5f5595027c8acd2efdef5ba35348641d2&scene=21#wechat_redirect)
-* [十大经典排序算法](https://github.com/hustcc/JS-Sorting-Algorithm)
-
-Demo代码地址：[Github](git@github.com:edgeowner/JavaCoreDemo.git)
+1. [八大基础排序总结](https://mp.weixin.qq.com/s?__biz=MzI4Njg5MDA5NA==&mid=2247484058&idx=1&sn=432c2dd8e4bda662ce066c09f8e22bda&chksm=ebd7439bdca0ca8ded40d0f431db411928936db9b4b5f5595027c8acd2efdef5ba35348641d2&scene=21#wechat_redirect)
+2. [十大经典排序算法](https://github.com/hustcc/JS-Sorting-Algorithm)
+3. [Demo代码地址](https://github.com/edgeowner/JS-Sorting-Algorithm)
 
  
    
