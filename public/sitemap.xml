@@ -2,16 +2,9 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
-    <loc>http://edgeowner.com/2018/04/27/local-nexus-plugins/local-nexus-plugins/</loc>
+    <loc>http://edgeowner.com/2018/05/01/Mac%E4%B8%8B%E7%9A%84Linux%E5%BF%AB%E6%8D%B7%E6%93%8D%E4%BD%9C/Mac%E4%B8%8B%E7%9A%84Linux%E5%BF%AB%E6%8D%B7%E6%93%8D%E4%BD%9C/</loc>
     
-    <lastmod>2018-04-26T16:07:12.392Z</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>http://edgeowner.com/2018/04/27/local-nexus-plugins/</loc>
-    
-    <lastmod>2018-04-26T16:00:51.192Z</lastmod>
+    <lastmod>2018-05-01T10:23:02.000Z</lastmod>
     
   </url>
   
@@ -156,7 +149,7 @@
   </url>
   
   <url>
-    <loc>http://edgeowner.com/2016/10/01/Lock/optimistic-pessimistic/</loc>
+    <loc>http://edgeowner.com/2016/10/01/SortAlogrithms/optimistic-pessimistic-locking/</loc>
     
     <lastmod>2016-10-01T12:19:21.000Z</lastmod>
     
@@ -170,7 +163,7 @@
   </url>
   
   <url>
-    <loc>http://edgeowner.com/2016/10/01/SortAlogrithms/optimistic-pessimistic-locking/</loc>
+    <loc>http://edgeowner.com/2016/10/01/Lock/optimistic-pessimistic/</loc>
     
     <lastmod>2016-10-01T12:19:21.000Z</lastmod>
     
@@ -180,6 +173,20 @@
     <loc>http://edgeowner.com/2016/10/02/JavaPremium/Java-CAS/</loc>
     
     <lastmod>2016-10-01T10:19:21.000Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>http://edgeowner.com/2016/05/01/JavaMultiThreadBook/MultiThreadChapter2/</loc>
+    
+    <lastmod>2016-05-01T12:19:21.000Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>http://edgeowner.com/2018/04/27/local-nexus-plugins/local-nexus-plugins/</loc>
+    
+    <lastmod>2016-05-01T12:19:21.000Z</lastmod>
     
   </url>
   
@@ -198,21 +205,14 @@
   </url>
   
   <url>
-    <loc>http://edgeowner.com/2016/05/01/JavaMultiThreadBook/MultiThreadChapter2/</loc>
-    
-    <lastmod>2016-05-01T12:19:21.000Z</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>http://edgeowner.com/2016/04/27/JVM/jvm-introduce/</loc>
+    <loc>http://edgeowner.com/2016/04/27/JVM/jvm4/</loc>
     
     <lastmod>2016-04-27T11:29:00.000Z</lastmod>
     
   </url>
   
   <url>
-    <loc>http://edgeowner.com/2016/04/26/JVM/JVM3/</loc>
+    <loc>http://edgeowner.com/2016/04/26/JVM/jvm3/</loc>
     
     <lastmod>2016-04-27T04:29:00.000Z</lastmod>
     
@@ -226,7 +226,7 @@
   </url>
   
   <url>
-    <loc>http://edgeowner.com/2016/04/23/JVM/jvm/</loc>
+    <loc>http://edgeowner.com/2016/04/23/JVM/jvm1/</loc>
     
     <lastmod>2016-04-23T14:29:00.000Z</lastmod>
     
@@ -247,13 +247,6 @@
   </url>
   
   <url>
-    <loc>http://edgeowner.com/2016/04/21/JavaMultiThread/ThreadPoolExecutor/</loc>
-    
-    <lastmod>2016-04-21T12:17:23.000Z</lastmod>
-    
-  </url>
-  
-  <url>
     <loc>http://edgeowner.com/2016/04/21/JavaMultiThreadBook/MultiThreadChapter4/</loc>
     
     <lastmod>2016-04-21T12:17:23.000Z</lastmod>
@@ -268,6 +261,13 @@
   </url>
   
   <url>
+    <loc>http://edgeowner.com/2016/04/21/JavaMultiThread/ThreadPoolExecutor/</loc>
+    
+    <lastmod>2016-04-21T12:17:23.000Z</lastmod>
+    
+  </url>
+  
+  <url>
     <loc>http://edgeowner.com/2015/04/13/JavaCore/Java-Core-3/</loc>
     
     <lastmod>2015-04-14T12:29:00.000Z</lastmod>
@@ -275,7 +275,7 @@
   </url>
   
   <url>
-    <loc>http://edgeowner.com/2015/04/13/JavaCore/Java-Core-2/</loc>
+    <loc>http://edgeowner.com/2015/04/13/JavaCore/Java-Core-4/</loc>
     
     <lastmod>2015-04-14T12:29:00.000Z</lastmod>
     
@@ -289,7 +289,7 @@
   </url>
   
   <url>
-    <loc>http://edgeowner.com/2015/04/13/JavaCore/Java-Core-4/</loc>
+    <loc>http://edgeowner.com/2015/04/13/JavaCore/Java-Core-2/</loc>
     
     <lastmod>2015-04-14T12:29:00.000Z</lastmod>
     
@@ -324,14 +324,14 @@
   </url>
   
   <url>
-    <loc>http://edgeowner.com/2015/03/24/SortAlogrithms/heapSort/</loc>
+    <loc>http://edgeowner.com/2015/03/24/SortAlogrithms/quickSort/</loc>
     
     <lastmod>2015-03-24T14:19:00.000Z</lastmod>
     
   </url>
   
   <url>
-    <loc>http://edgeowner.com/2015/03/24/SortAlogrithms/quickSort/</loc>
+    <loc>http://edgeowner.com/2015/03/24/SortAlogrithms/heapSort/</loc>
     
     <lastmod>2015-03-24T14:19:00.000Z</lastmod>
     

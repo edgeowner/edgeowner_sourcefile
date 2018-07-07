@@ -9,12 +9,14 @@ mathjax: true
 ---
 
 &emsp;&emsp;日常工作中只要时方便开发的部分工具的用途及资源会在此文介绍，欢迎广大技术蜀黍添加。
+#### Linux命令大全
+&emsp;&emsp;[Linux命令大全](http://man.linuxde.net/)是Linux各个命令大全的搜索集合，这里可以按照不同的Linux命令操作类型搜索出想要的Linux命令操作。
+![](http://p5vswdxl9.bkt.clouddn.com/linux.jpeg)
+<!--more-->
 
 #### Java源代码搜索
-&emsp;&emsp;Grepcode([资源地址](http://grepcode.com/))是面向Java开发人员的网站，这里可通过Java的<font color=#FF8C69>project</font> 、<font color=#FF8C69>classes</font>等关键字在线查看它对应的源码，知道对应的<font color=#FF8C69>project</font>、<font color=#FF8C69>classes</font>等信息。更方便的是，能提供不同版本的源代码在线查看：**jar包** 、**源码jar包**、**doc下载**。同样，也可以使用xxx-1.1.1.jar类似这样的名字直接找到对应的jar包，从而下载。
+Grepcode([资源地址](http://grepcode.com/))是面向Java开发人员的网站，这里可通过Java的<font color=#FF8C69>project</font> 、<font color=#FF8C69>classes</font>等关键字在线查看它对应的源码，知道对应的<font color=#FF8C69>project</font>、<font color=#FF8C69>classes</font>等信息。更方便的是，能提供不同版本的源代码在线查看：**jar包** 、**源码jar包**、**doc下载**。同样，也可以使用xxx-1.1.1.jar类似这样的名字直接找到对应的jar包，从而下载。
 ![Grepcode](http://p5vswdxl9.bkt.clouddn.com/Grepcode.jpg)
-
-<!--more-->
 
 #### 开源代码以及文档搜索
 &emsp;&emsp;SearchCode([资源地址](https://searchcode.com/))是一个源码搜索引擎，目前支持从**Github** 、**Bitbucket**、**Google Code**、**CodePlex**、**SourceForge** 和 **Fedora Project** 平台搜索公开的源码。
@@ -36,12 +38,16 @@ mathjax: true
 &emsp;&emsp;ProcessOn([资源地址](https://unsplash.com))是一个在线协作绘图平台，为用户提供最强大、易用的作图工具!支持在线创作**流程图** 、**BPMN** 、**UML图** 、**UI界面原型设计**、**iOS界面原型设计**等。
 ![ProcessOn](http://p5vswdxl9.bkt.clouddn.com/ProcessOn.jpg)
 
-#### Json在线验证及格式化
+#### Json在线验证及格式化(1)
 &emsp;&emsp;json.cn([资源地址](https://www.json.cn/))是比较不错的，不仅支持Json格式的验证及格式化，还可以将Json格式压缩成普通文本等，以及查询Json组件和Json解析相关代码好用功能。
 ![Json.cn](http://p5vswdxl9.bkt.clouddn.com/json.cn.jpg)
 
+#### Json在线验证及格式化(2)
+&emsp;&emsp;bejson.com([资源地址](http://www.bejson.com/jsoneditoronline/))本人推荐这个，**Bejson** 可以在线支持格式化JSON数据，并检测Json数据问题
+![bejson.com](http://p5vswdxl9.bkt.clouddn.com/3BD8FD16-438D-461B-9938-4E07E88C83E2.png)
+
 #### Json生成java类
-&emsp;&emsp;bejson([资源地址](http://www.bejson.com/json2javapojo/)Json是目前JavaWeb中数据传输的主要格式，很多时候会有把Json转成Java对象的需求。有时候合作方会提供一个Json的样例，需要我们自己定义Java类，这时候这个工具就派上用场了。
+&emsp;&emsp;bejson([资源地址](http://www.bejson.com/json2javapojo/))Json是目前JavaWeb中数据传输的主要格式，很多时候会有把Json转成Java对象的需求。有时候合作方会提供一个Json的样例，需要我们自己定义Java类，这时候这个工具就派上用场了。
 ![bejson](http://p5vswdxl9.bkt.clouddn.com/bejson.jpg)
 
 #### SQL自动生成Java代码
@@ -80,6 +86,10 @@ Java中很多地方都会用到时间戳，也经常会使用这种转换工具�
 <font face="微软雅黑" color=#9900ff size=2>-Xms1024m -Xmx1024m  -XX:PermSize=512M -XX:MaxPermSize=1024m  -Dfile.encoding=utf-8 </font>
 ```
 ![](http://p5vswdxl9.bkt.clouddn.com/tiaose.jpg)
+
+#### CSS样式参照
+&emsp;&emsp;([资源地址](https://www.w3schools.com/colors/colors_names.asp))常用字体颜色修改以及相应名称等设置可参照其目录(**翻墙**)：
+![](http://p5vswdxl9.bkt.clouddn.com/tiaoseban.jpg)
 
 #### ASCII ART生成
 &emsp;&emsp;ASCII ART生成([资源地址](http://patorjk.com/software/taag/))
